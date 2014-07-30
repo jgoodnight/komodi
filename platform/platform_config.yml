@@ -1,0 +1,9 @@
+#cedar platform configuration
+
+server:
+    type: simple
+    applicationContextPath: /komodi
+    adminContextPath: /komodiAdmin
+    connector:
+        type: http
+        port: 8080
